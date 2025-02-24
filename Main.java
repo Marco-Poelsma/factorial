@@ -1,16 +1,16 @@
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
-        int n;
+        long n;
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
-        int res;
+        long res;
 
         res = fact(n);
         System.out.println(res);
     }
 
-    public static int fact(int n) {
+    public static long fact(long n) {
         if(n == 0) {
             return 1;
         }
